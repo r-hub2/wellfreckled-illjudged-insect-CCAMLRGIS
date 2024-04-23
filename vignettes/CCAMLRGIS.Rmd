@@ -1,0 +1,19 @@
+---
+title: "CCAMLRGIS R Package"
+author: 'CCAMLR Secretariat'
+output: rmarkdown::html_vignette
+date: "`r format(Sys.time(), '%d %b %Y')`"
+vignette: >
+  %\VignetteIndexEntry{CCAMLRGIS R Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+<center>
+### A package to load and create spatial data, including layers and tools that are relevant to CCAMLR activities.
+</center>
+___
+
+[here]:https://github.com/ccamlr/CCAMLRGIS#table-of-contents
+
+All contents of the vignette have been moved [here].

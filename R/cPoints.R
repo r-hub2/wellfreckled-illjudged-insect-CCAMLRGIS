@@ -1,0 +1,9 @@
+cPoints=function(Input){
+  Locs=st_as_sf(x=Input,coords=c(2,1),crs=4326,remove=FALSE)
+  Locs=st_transform(x=Locs,crs=6932)
+  tmp=st_coordinates(Locs)
+  Locs$x=tmp[,1]
+  Locs$y=tmp[,2]
+  Locs$ID=seq(1,length(Locs$x))
+  return(Locs)
+}
